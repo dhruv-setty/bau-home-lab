@@ -1,5 +1,7 @@
 # User-facing troubleshooting
 
+Troubleshooting through research: when the fix is not obvious, check vendor documentation, known issues and the knowledge base before changing anything, and record the source in the ticket.
+
 Start with the user: what were they doing, what did they expect, what happened, and when did it last work.
 
 | Problem | First checks |
