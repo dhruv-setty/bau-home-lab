@@ -12,3 +12,5 @@
 ## Group Policy
 - Use `gpresult /r` on the client to see which policies applied.
 - Use `gpupdate /force` after a change, then confirm with `gpresult` again.
+
+Local lab: see [projects/identity-lifecycle](../projects/identity-lifecycle/README.md) for the scripted joiner, mover and leaver cycle.

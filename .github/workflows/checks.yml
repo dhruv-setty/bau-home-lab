@@ -1,0 +1,21 @@
+name: checks
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Shell syntax
+        run: bash -n projects/identity-lifecycle/jml.sh
+      - name: Policy JSON
+        run: for f in projects/intune/policies/*.json; do python3 -m json.tool "$f" > /dev/null && echo "$f valid"; done
+      - name: PowerShell syntax
+        shell: pwsh
+        run: |
+          $errors = $null
+          [System.Management.Automation.Language.Parser]::ParseFile("$PWD/projects/intune/scripts/Test-LabCompliance.ps1", [ref]$null, [ref]$errors) | Out-Null
+          if ($errors) { $errors; exit 1 } else { "Test-LabCompliance.ps1 parses" }
+      - name: SLA report matches fixture
+        run: |
+          python3 projects/ticketing/sla_report.py projects/ticketing/tickets.csv "2026-11-24 12:00" > /tmp/sla.txt
+          diff /tmp/sla.txt evidence/synthetic/sla-report-2026-11-24.txt

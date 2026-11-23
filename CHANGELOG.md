@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-11-23
+- Restructured into projects/ (identity-lifecycle, intune, ticketing) with a portfolio README, skills table and a GitHub Actions check workflow.
 - Added write-ups for the identity lifecycle, Intune and ticketing labs, with synthetic fixed data points in evidence/synthetic.
 - Added a ticketing lab: incident and request workflow, categories, priority matrix, SLA targets, escalation rules, a sample queue and an SLA report script.
 - Added an Intune lab: Autopilot hash collection, a Windows compliance policy and a device restrictions profile in Microsoft Graph format, and a local compliance check script.

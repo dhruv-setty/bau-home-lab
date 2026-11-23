@@ -5,7 +5,7 @@ No Microsoft 365 tenant was available, so this lab runs the same user lifecycle 
 ## Run
 
 ```bash
-cd scripts
+cd projects/identity-lifecycle
 ./jml.sh up       # start the domain controller, create OUs and groups
 ./jml.sh joiner   # INC-1001: two new starters
 ./jml.sh mover    # REQ-1002: Sales to Finance
@@ -15,7 +15,7 @@ cd scripts
 ./jml.sh down
 ```
 
-Every step writes a line to `scripts/evidence/jml-log.csv`.
+Every step writes a line to `projects/identity-lifecycle/evidence/jml-log.csv`.
 
 ## Mapping to Microsoft 365
 

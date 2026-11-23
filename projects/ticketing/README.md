@@ -70,7 +70,7 @@ Hierarchical escalation (to management):
 `tickets.csv` holds a sample queue, including the joiner, mover, leaver and password reset tickets from the identity lab (INC-1001, REQ-1002, REQ-1003, INC-1004).
 
 ```bash
-python3 sla_report.py tickets.csv
+python3 sla_report.py tickets.csv "2026-11-24 12:00"
 ```
 
 The report shows response and resolution time used against target, and marks each ticket Met, At risk (75% or more used, still open) or Breached.

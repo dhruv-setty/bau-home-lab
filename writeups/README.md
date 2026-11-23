@@ -1,6 +1,6 @@
 # Write-ups
 
-Data points in these write-ups are synthetic fixed values (see `evidence/synthetic/`).
+Data points in these write-ups are synthetic fixed values (see `../evidence/synthetic/`).
 
 | Write-up | Summary |
 |---|---|
