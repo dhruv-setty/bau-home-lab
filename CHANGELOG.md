@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-11-23
+- Added an Intune lab: Autopilot hash collection, a Windows compliance policy and a device restrictions profile in Microsoft Graph format, and a local compliance check script.
 - Added a joiner, mover and leaver lab script for Samba AD in Docker, with a mapping to Microsoft 365 admin tasks.
 - Added a CVSS 3.1 metric table to the CVE-2022-1388 review.
 - Added a research step to the troubleshooting runbook.

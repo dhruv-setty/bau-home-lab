@@ -1,0 +1,27 @@
+{
+  "@odata.type": "#microsoft.graph.windows10CompliancePolicy",
+  "displayName": "LAB - Windows - Compliance baseline",
+  "description": "Encryption, Secure Boot, TPM, firewall, Defender and minimum OS build.",
+  "passwordRequired": true,
+  "passwordMinimumLength": 8,
+  "passwordRequiredToUnlockFromIdle": true,
+  "passwordMinutesOfInactivityBeforeLock": 15,
+  "osMinimumVersion": "10.0.19045",
+  "bitLockerEnabled": true,
+  "secureBootEnabled": true,
+  "codeIntegrityEnabled": true,
+  "storageRequireEncryption": true,
+  "activeFirewallRequired": true,
+  "defenderEnabled": true,
+  "rtpEnabled": true,
+  "antivirusRequired": true,
+  "tpmRequired": true,
+  "scheduledActionsForRule": [
+    {
+      "ruleName": "PasswordRequired",
+      "scheduledActionConfigurations": [
+        { "actionType": "block", "gracePeriodHours": 24, "notificationTemplateId": "", "notificationMessageCCList": [] }
+      ]
+    }
+  ]
+}

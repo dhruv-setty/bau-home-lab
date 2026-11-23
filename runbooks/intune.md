@@ -13,3 +13,5 @@
 ## Retire and wipe
 - Retire removes company data and keeps personal data. Wipe resets the device.
 - Confirm which one is approved in the ticket before running it.
+
+Local lab: see [intune/README.md](../intune/README.md) for the enrolment, compliance and configuration build.

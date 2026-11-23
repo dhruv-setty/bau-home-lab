@@ -1,0 +1,12 @@
+{
+  "@odata.type": "#microsoft.graph.windows10GeneralConfiguration",
+  "displayName": "LAB - Windows - Device restrictions",
+  "description": "Screen lock, password rules and Defender real-time protection.",
+  "passwordRequired": true,
+  "passwordMinimumLength": 8,
+  "passwordBlockSimple": true,
+  "passwordMinutesOfInactivityBeforeScreenTimeout": 15,
+  "defenderRequireRealTimeMonitoring": true,
+  "defenderRequireCloudProtection": true,
+  "smartScreenEnableAppInstallControl": true
+}
