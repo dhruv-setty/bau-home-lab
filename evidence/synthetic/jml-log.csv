@@ -1,0 +1,6 @@
+time,ticket,action,user,detail
+2026-11-23 09:20,INC-1001,joiner,alex.tane,created in OU=Staff; SG-Sales; Sales mailbox access; change password at next sign-in
+2026-11-23 09:21,INC-1001,joiner,sam.ruka,created in OU=Staff; SG-Sales; Sales mailbox access; change password at next sign-in
+2026-11-23 10:30,REQ-1002,mover,alex.tane,Sales to Finance; groups and mailbox access swapped
+2026-11-23 13:10,REQ-1003,leaver,sam.ruka,disabled; password scrambled; groups removed; moved to OU=Leavers
+2026-11-23 15:34,INC-1004,password-reset,alex.tane,temporary password set; change required at next sign-in

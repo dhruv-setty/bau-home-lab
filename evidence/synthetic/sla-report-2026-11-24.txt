@@ -1,0 +1,11 @@
+Ticket   Pri Response            Resolution              Status    Summary
+INC-1001 P4  0h 15m / 9h 00m     2h 35m / 45h 00m        Met       Two new starters for Sales
+REQ-1002 P4  0h 30m / 9h 00m     8h 15m / 45h 00m        Met       Alex moves from Sales to Finance
+REQ-1003 P2  0h 10m / 0h 30m     1h 05m / 8h 00m         Met       Offboard Sam today
+INC-1004 P3  0h 04m / 4h 00m     0h 15m / 27h 00m        Met       Locked out after password expiry
+INC-1005 P1  0h 10m / 0h 15m     3h 45m / 4h 00m         Met       VPN down for all remote staff
+INC-1006 P3  0h 30m / 4h 00m     27h 30m / 27h 00m       Breached  Outlook keeps asking for password
+INC-1007 P3  1h 15m / 4h 00m     25h 00m / 27h 00m       At risk   Laptop non-compliant: BitLocker off
+INC-1008 P2  0h 05m / 0h 30m     1h 30m / 8h 00m         Met       User entered password on fake login page
+
+At risk: 1, Breached: 1, Met: 6
