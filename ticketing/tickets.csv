@@ -1,0 +1,9 @@
+id,type,category,subcategory,impact,urgency,opened,first_response,resolved,pending_minutes,assignee,summary
+INC-1001,Request,Account and access,Joiner,Low,Medium,2026-11-23 09:05,2026-11-23 09:20,2026-11-23 11:40,0,L1,Two new starters for Sales
+REQ-1002,Request,Account and access,Mover,Low,Medium,2026-11-23 10:00,2026-11-23 10:30,2026-11-24 09:15,0,L1,Alex moves from Sales to Finance
+REQ-1003,Request,Account and access,Leaver,Medium,High,2026-11-23 13:00,2026-11-23 13:10,2026-11-23 14:05,0,L2,Offboard Sam today
+INC-1004,Incident,Account and access,Password reset,Low,High,2026-11-23 15:30,2026-11-23 15:34,2026-11-23 15:45,0,L1,Locked out after password expiry
+INC-1005,Incident,Network,VPN,High,High,2026-11-23 08:10,2026-11-23 08:20,2026-11-23 11:55,0,L2,VPN down for all remote staff
+INC-1006,Incident,Email and collaboration,Outlook,Low,High,2026-11-20 16:30,2026-11-21 09:10,2026-11-26 10:00,120,L1,Outlook keeps asking for password
+INC-1007,Incident,Device,Enrolment and compliance,Medium,Medium,2026-11-19 14:00,2026-11-19 15:15,,0,L2,Laptop non-compliant: BitLocker off
+INC-1008,Incident,Security,Phishing report,Medium,High,2026-11-23 11:00,2026-11-23 11:05,2026-11-23 12:30,0,Security,User entered password on fake login page
